@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>AServlet</servlet-name>
+        <servlet-class>AServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AServlet</servlet-name>
+        <url-pattern>/AServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>BServlet</servlet-name>
+        <servlet-class>BServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BServlet</servlet-name>
+        <url-pattern>/BServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CServlet</servlet-name>
+        <servlet-class>CServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CServlet</servlet-name>
+        <url-pattern>/CServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DServlet</servlet-name>
+        <servlet-class>DServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DServlet</servlet-name>
+        <url-pattern>/DServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EServlet</servlet-name>
+        <servlet-class>EServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EServlet</servlet-name>
+        <url-pattern>/EServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FServlet</servlet-name>
+        <servlet-class>FServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FServlet</servlet-name>
+        <url-pattern>/FServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>GServlet</servlet-name>
+        <servlet-class>GServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GServlet</servlet-name>
+        <url-pattern>/GServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HServlet</servlet-name>
+        <servlet-class>HServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HServlet</servlet-name>
+        <url-pattern>/HServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IServlet</servlet-name>
+        <servlet-class>IServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IServlet</servlet-name>
+        <url-pattern>/IServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OneServlet</servlet-name>
+        <servlet-class>OneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>OneServlet</servlet-name>
+        <url-pattern>/OneServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TwoServlet</servlet-name>
+        <servlet-class>TwoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TwoServlet</servlet-name>
+        <url-pattern>/TwoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IncludeOneServlet</servlet-name>
+        <servlet-class>IncludeOneServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IncludeOneServlet</servlet-name>
+        <url-pattern>/IncludeOneServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IncludeTwoServlet</servlet-name>
+        <servlet-class>IncludeTwoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IncludeTwoServlet</servlet-name>
+        <url-pattern>/IncludeTwoServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RequestServlet</servlet-name>
+        <servlet-class>RequestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RequestServlet</servlet-name>
+        <url-pattern>/RequestServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ResponseServlet</servlet-name>
+        <servlet-class>ResponseServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseServlet</servlet-name>
+        <url-pattern>/ResponseServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
